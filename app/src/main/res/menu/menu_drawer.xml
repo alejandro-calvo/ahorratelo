@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/list_icon"
+            android:title="Lista de gastos" />
+
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/summary_icon"
+            android:title="Resumen mensual" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map_icon"
+            android:title="Mapa" />
+
+    </group>
+
+</menu>
